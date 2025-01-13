@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout_popup_add2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/halfcurved_shape"
+    android:paddingLeft="00dp"
+    android:paddingTop="10dp"
+    android:paddingRight="0dp"
+    android:paddingBottom="0dp"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="80dp"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+
+    <View
+        android:id="@+id/line_popup_add"
+        android:layout_width="40dp"
+        android:layout_height="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rect_for_popup" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line_popup_add"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/title_popup_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/roboto"
+                android:text="Connect Application"
+                android:textColor="@color/black3"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/qrscanBut_popup_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="@drawable/ripple_rect">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/qrIcon_popup_add"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/baseline_qr_code_scanner_24" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/qrIcon_popup_add"
+                android:fontFamily="@font/roboto"
+                android:text="Scan a QR Code"
+                android:textColor="@color/black3"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/keyConnect_popup_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="@drawable/ripple_rect">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/keyIcon_popup_add"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/baseline_keyboard_24" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/keyIcon_popup_add"
+                android:fontFamily="@font/roboto"
+                android:text="Enter a Setup Key"
+                android:textColor="@color/black3"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

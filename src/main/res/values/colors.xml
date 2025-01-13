@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="TransparentColour">#00FFFFFF</color>
+    <color name="blue">#4185F5</color>
+    <color name="aliceblue">#EEF4F9</color>
+    <color name="black1">#212121</color>
+    <color name="black2">#1e1e1e</color>
+    <color name="black3">#1f1f1f</color>
+    <color name="black7">#737989</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white2">#EEEEEE</color>
+    <color name="gray0">#f5f5f5</color>
+    <color name="gray1">#9ea1a5</color>
+    <color name="gray2">#d5d5d7</color>
+    <color name="yellown2">#EFC325</color>
+    <color name="yellown1">#FFCA00</color>
+    <color name="yellow0">#FFFFC107</color>
+    <color name="yellow1">#eac63c</color>
+    <color name="yellow2">#ecd04c</color>
+    <color name="yellow3">#EFDE8B</color>
+
+
+    <color name="black44">#171E26</color>
+    <color name="black4">#262b33</color>
+    <color name="black55">#1F2630</color>
+    <color name="black5">#30353e</color>
+    <color name="black6">#FF4D5157</color>
+
+    <color name="red1">#F6465D</color>
+    <color name="red2">#F6465D</color>
+    <color name="red3">#F6465D</color>
+    <color name="steelblue">#383F53</color>
+    <color name="green1">#2EBD85</color>
+    <color name="eventColor">#795548</color>
+
+    <color name="chart1">#E57373</color>
+    <color name="chart2">#F06292</color>
+    <color name="chart3">#BA68C8</color>
+    <color name="chart4">#9575CD</color>
+    <color name="chart5">#7986CB</color>
+    <color name="chart6">#64B5F6</color>
+    <color name="chart7">#4FC3F7</color>
+    <color name="chart8">#4DD0E1</color>
+    <color name="chart9">#4DB6AC</color>
+    <color name="chart10">#81C784</color>
+    <color name="chart11">#AED581</color>
+
+    <color name="newprimary">#F6C90E</color>
+    <color name="newprimaryV">#dbd8e3</color>
+    <color name="newbg">#252c33</color>
+    <color name="newsurface">#3A4750</color>
+
+    <color name="lightpri">#00695C</color>
+    <color name="lightpriV">#009688</color>
+    <color name="lightbg">#ffffff</color>
+    <color name="lightsurface">#252c33</color>
+
+</resources>
